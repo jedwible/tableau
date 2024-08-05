@@ -1,0 +1,3146 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data (P11-Country-Population)' inline='true' name='federated.1x2r8tu0tokifz146vit11tbfv9r' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Country-Population' name='excel-direct.0ttwksu1uuo3n116tir8f0hw4dj1'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/projects/tableau/MasterCourse/Section5/P11-Country-Population.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0ttwksu1uuo3n116tir8f0hw4dj1' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='integer' name='Indicator Code' ordinal='3' />
+              <column datatype='integer' name='1960' ordinal='4' />
+              <column datatype='integer' name='1961' ordinal='5' />
+              <column datatype='integer' name='1962' ordinal='6' />
+              <column datatype='integer' name='1963' ordinal='7' />
+              <column datatype='integer' name='1964' ordinal='8' />
+              <column datatype='integer' name='1965' ordinal='9' />
+              <column datatype='integer' name='1966' ordinal='10' />
+              <column datatype='integer' name='1967' ordinal='11' />
+              <column datatype='integer' name='1968' ordinal='12' />
+              <column datatype='integer' name='1969' ordinal='13' />
+              <column datatype='integer' name='1970' ordinal='14' />
+              <column datatype='integer' name='1971' ordinal='15' />
+              <column datatype='integer' name='1972' ordinal='16' />
+              <column datatype='integer' name='1973' ordinal='17' />
+              <column datatype='integer' name='1974' ordinal='18' />
+              <column datatype='integer' name='1975' ordinal='19' />
+              <column datatype='integer' name='1976' ordinal='20' />
+              <column datatype='integer' name='1977' ordinal='21' />
+              <column datatype='integer' name='1978' ordinal='22' />
+              <column datatype='integer' name='1979' ordinal='23' />
+              <column datatype='integer' name='1980' ordinal='24' />
+              <column datatype='integer' name='1981' ordinal='25' />
+              <column datatype='integer' name='1982' ordinal='26' />
+              <column datatype='integer' name='1983' ordinal='27' />
+              <column datatype='integer' name='1984' ordinal='28' />
+              <column datatype='integer' name='1985' ordinal='29' />
+              <column datatype='integer' name='1986' ordinal='30' />
+              <column datatype='integer' name='1987' ordinal='31' />
+              <column datatype='integer' name='1988' ordinal='32' />
+              <column datatype='integer' name='1989' ordinal='33' />
+              <column datatype='integer' name='1990' ordinal='34' />
+              <column datatype='integer' name='1991' ordinal='35' />
+              <column datatype='integer' name='1992' ordinal='36' />
+              <column datatype='integer' name='1993' ordinal='37' />
+              <column datatype='integer' name='1994' ordinal='38' />
+              <column datatype='integer' name='1995' ordinal='39' />
+              <column datatype='integer' name='1996' ordinal='40' />
+              <column datatype='integer' name='1997' ordinal='41' />
+              <column datatype='integer' name='1998' ordinal='42' />
+              <column datatype='integer' name='1999' ordinal='43' />
+              <column datatype='integer' name='2000' ordinal='44' />
+              <column datatype='integer' name='2001' ordinal='45' />
+              <column datatype='integer' name='2002' ordinal='46' />
+              <column datatype='integer' name='2003' ordinal='47' />
+              <column datatype='integer' name='2004' ordinal='48' />
+              <column datatype='integer' name='2005' ordinal='49' />
+              <column datatype='integer' name='2006' ordinal='50' />
+              <column datatype='integer' name='2007' ordinal='51' />
+              <column datatype='integer' name='2008' ordinal='52' />
+              <column datatype='integer' name='2009' ordinal='53' />
+              <column datatype='integer' name='2010' ordinal='54' />
+              <column datatype='integer' name='2011' ordinal='55' />
+              <column datatype='integer' name='2012' ordinal='56' />
+              <column datatype='integer' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0ttwksu1uuo3n116tir8f0hw4dj1' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='integer' name='Indicator Code' ordinal='3' />
+              <column datatype='integer' name='1960' ordinal='4' />
+              <column datatype='integer' name='1961' ordinal='5' />
+              <column datatype='integer' name='1962' ordinal='6' />
+              <column datatype='integer' name='1963' ordinal='7' />
+              <column datatype='integer' name='1964' ordinal='8' />
+              <column datatype='integer' name='1965' ordinal='9' />
+              <column datatype='integer' name='1966' ordinal='10' />
+              <column datatype='integer' name='1967' ordinal='11' />
+              <column datatype='integer' name='1968' ordinal='12' />
+              <column datatype='integer' name='1969' ordinal='13' />
+              <column datatype='integer' name='1970' ordinal='14' />
+              <column datatype='integer' name='1971' ordinal='15' />
+              <column datatype='integer' name='1972' ordinal='16' />
+              <column datatype='integer' name='1973' ordinal='17' />
+              <column datatype='integer' name='1974' ordinal='18' />
+              <column datatype='integer' name='1975' ordinal='19' />
+              <column datatype='integer' name='1976' ordinal='20' />
+              <column datatype='integer' name='1977' ordinal='21' />
+              <column datatype='integer' name='1978' ordinal='22' />
+              <column datatype='integer' name='1979' ordinal='23' />
+              <column datatype='integer' name='1980' ordinal='24' />
+              <column datatype='integer' name='1981' ordinal='25' />
+              <column datatype='integer' name='1982' ordinal='26' />
+              <column datatype='integer' name='1983' ordinal='27' />
+              <column datatype='integer' name='1984' ordinal='28' />
+              <column datatype='integer' name='1985' ordinal='29' />
+              <column datatype='integer' name='1986' ordinal='30' />
+              <column datatype='integer' name='1987' ordinal='31' />
+              <column datatype='integer' name='1988' ordinal='32' />
+              <column datatype='integer' name='1989' ordinal='33' />
+              <column datatype='integer' name='1990' ordinal='34' />
+              <column datatype='integer' name='1991' ordinal='35' />
+              <column datatype='integer' name='1992' ordinal='36' />
+              <column datatype='integer' name='1993' ordinal='37' />
+              <column datatype='integer' name='1994' ordinal='38' />
+              <column datatype='integer' name='1995' ordinal='39' />
+              <column datatype='integer' name='1996' ordinal='40' />
+              <column datatype='integer' name='1997' ordinal='41' />
+              <column datatype='integer' name='1998' ordinal='42' />
+              <column datatype='integer' name='1999' ordinal='43' />
+              <column datatype='integer' name='2000' ordinal='44' />
+              <column datatype='integer' name='2001' ordinal='45' />
+              <column datatype='integer' name='2002' ordinal='46' />
+              <column datatype='integer' name='2003' ordinal='47' />
+              <column datatype='integer' name='2004' ordinal='48' />
+              <column datatype='integer' name='2005' ordinal='49' />
+              <column datatype='integer' name='2006' ordinal='50' />
+              <column datatype='integer' name='2007' ordinal='51' />
+              <column datatype='integer' name='2008' ordinal='52' />
+              <column datatype='integer' name='2009' ordinal='53' />
+              <column datatype='integer' name='2010' ordinal='54' />
+              <column datatype='integer' name='2011' ordinal='55' />
+              <column datatype='integer' name='2012' ordinal='56' />
+              <column datatype='integer' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>4</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BF216:no:A1:BF216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Indicator Code]' role='dimension' type='ordinal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Population Total' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_836A8729D8434ED899A36E655BE36F12]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jedwi/AppData/Local/Temp/TableauTemp/#TableauTemp_179diz31klv5y618qi76r10mkhdf.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/05/2024 09:16:11 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Code</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Indicator Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Indicator Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Indicator Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Names</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pivot Field Names]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Names</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Pivot</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Values</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pivot Field Values]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Values</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Pivot</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11070</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_836A8729D8434ED899A36E655BE36F12]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='10000' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data' id='Data_836A8729D8434ED899A36E655BE36F12'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[1960]' />
+                  <value name='[1961]' />
+                  <value name='[1962]' />
+                  <value name='[1963]' />
+                  <value name='[1964]' />
+                  <value name='[1965]' />
+                  <value name='[1966]' />
+                  <value name='[1967]' />
+                  <value name='[1968]' />
+                  <value name='[1969]' />
+                  <value name='[1970]' />
+                  <value name='[1971]' />
+                  <value name='[1972]' />
+                  <value name='[1973]' />
+                  <value name='[1974]' />
+                  <value name='[1975]' />
+                  <value name='[1976]' />
+                  <value name='[1977]' />
+                  <value name='[1978]' />
+                  <value name='[1979]' />
+                  <value name='[1980]' />
+                  <value name='[1981]' />
+                  <value name='[1982]' />
+                  <value name='[1983]' />
+                  <value name='[1984]' />
+                  <value name='[1985]' />
+                  <value name='[1986]' />
+                  <value name='[1987]' />
+                  <value name='[1988]' />
+                  <value name='[1989]' />
+                  <value name='[1990]' />
+                  <value name='[1991]' />
+                  <value name='[1992]' />
+                  <value name='[1993]' />
+                  <value name='[1994]' />
+                  <value name='[1995]' />
+                  <value name='[1996]' />
+                  <value name='[1997]' />
+                  <value name='[1998]' />
+                  <value name='[1999]' />
+                  <value name='[2000]' />
+                  <value name='[2001]' />
+                  <value name='[2002]' />
+                  <value name='[2003]' />
+                  <value name='[2004]' />
+                  <value name='[2005]' />
+                  <value name='[2006]' />
+                  <value name='[2007]' />
+                  <value name='[2008]' />
+                  <value name='[2009]' />
+                  <value name='[2010]' />
+                  <value name='[2011]' />
+                  <value name='[2012]' />
+                  <value name='[2013]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Data].[1960]' />
+                    <field name='[Data].[1961]' />
+                    <field name='[Data].[1962]' />
+                    <field name='[Data].[1963]' />
+                    <field name='[Data].[1964]' />
+                    <field name='[Data].[1965]' />
+                    <field name='[Data].[1966]' />
+                    <field name='[Data].[1967]' />
+                    <field name='[Data].[1968]' />
+                    <field name='[Data].[1969]' />
+                    <field name='[Data].[1970]' />
+                    <field name='[Data].[1971]' />
+                    <field name='[Data].[1972]' />
+                    <field name='[Data].[1973]' />
+                    <field name='[Data].[1974]' />
+                    <field name='[Data].[1975]' />
+                    <field name='[Data].[1976]' />
+                    <field name='[Data].[1977]' />
+                    <field name='[Data].[1978]' />
+                    <field name='[Data].[1979]' />
+                    <field name='[Data].[1980]' />
+                    <field name='[Data].[1981]' />
+                    <field name='[Data].[1982]' />
+                    <field name='[Data].[1983]' />
+                    <field name='[Data].[1984]' />
+                    <field name='[Data].[1985]' />
+                    <field name='[Data].[1986]' />
+                    <field name='[Data].[1987]' />
+                    <field name='[Data].[1988]' />
+                    <field name='[Data].[1989]' />
+                    <field name='[Data].[1990]' />
+                    <field name='[Data].[1991]' />
+                    <field name='[Data].[1992]' />
+                    <field name='[Data].[1993]' />
+                    <field name='[Data].[1994]' />
+                    <field name='[Data].[1995]' />
+                    <field name='[Data].[1996]' />
+                    <field name='[Data].[1997]' />
+                    <field name='[Data].[1998]' />
+                    <field name='[Data].[1999]' />
+                    <field name='[Data].[2000]' />
+                    <field name='[Data].[2001]' />
+                    <field name='[Data].[2002]' />
+                    <field name='[Data].[2003]' />
+                    <field name='[Data].[2004]' />
+                    <field name='[Data].[2005]' />
+                    <field name='[Data].[2006]' />
+                    <field name='[Data].[2007]' />
+                    <field name='[Data].[2008]' />
+                    <field name='[Data].[2009]' />
+                    <field name='[Data].[2010]' />
+                    <field name='[Data].[2011]' />
+                    <field name='[Data].[2012]' />
+                    <field name='[Data].[2013]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.0ttwksu1uuo3n116tir8f0hw4dj1' name='Data' table='[Data$]' type='table'>
+                  <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+                    <column datatype='string' name='Country Name' ordinal='0' />
+                    <column datatype='string' name='Country Code' ordinal='1' />
+                    <column datatype='string' name='Indicator Name' ordinal='2' />
+                    <column datatype='integer' name='Indicator Code' ordinal='3' />
+                    <column datatype='integer' name='1960' ordinal='4' />
+                    <column datatype='integer' name='1961' ordinal='5' />
+                    <column datatype='integer' name='1962' ordinal='6' />
+                    <column datatype='integer' name='1963' ordinal='7' />
+                    <column datatype='integer' name='1964' ordinal='8' />
+                    <column datatype='integer' name='1965' ordinal='9' />
+                    <column datatype='integer' name='1966' ordinal='10' />
+                    <column datatype='integer' name='1967' ordinal='11' />
+                    <column datatype='integer' name='1968' ordinal='12' />
+                    <column datatype='integer' name='1969' ordinal='13' />
+                    <column datatype='integer' name='1970' ordinal='14' />
+                    <column datatype='integer' name='1971' ordinal='15' />
+                    <column datatype='integer' name='1972' ordinal='16' />
+                    <column datatype='integer' name='1973' ordinal='17' />
+                    <column datatype='integer' name='1974' ordinal='18' />
+                    <column datatype='integer' name='1975' ordinal='19' />
+                    <column datatype='integer' name='1976' ordinal='20' />
+                    <column datatype='integer' name='1977' ordinal='21' />
+                    <column datatype='integer' name='1978' ordinal='22' />
+                    <column datatype='integer' name='1979' ordinal='23' />
+                    <column datatype='integer' name='1980' ordinal='24' />
+                    <column datatype='integer' name='1981' ordinal='25' />
+                    <column datatype='integer' name='1982' ordinal='26' />
+                    <column datatype='integer' name='1983' ordinal='27' />
+                    <column datatype='integer' name='1984' ordinal='28' />
+                    <column datatype='integer' name='1985' ordinal='29' />
+                    <column datatype='integer' name='1986' ordinal='30' />
+                    <column datatype='integer' name='1987' ordinal='31' />
+                    <column datatype='integer' name='1988' ordinal='32' />
+                    <column datatype='integer' name='1989' ordinal='33' />
+                    <column datatype='integer' name='1990' ordinal='34' />
+                    <column datatype='integer' name='1991' ordinal='35' />
+                    <column datatype='integer' name='1992' ordinal='36' />
+                    <column datatype='integer' name='1993' ordinal='37' />
+                    <column datatype='integer' name='1994' ordinal='38' />
+                    <column datatype='integer' name='1995' ordinal='39' />
+                    <column datatype='integer' name='1996' ordinal='40' />
+                    <column datatype='integer' name='1997' ordinal='41' />
+                    <column datatype='integer' name='1998' ordinal='42' />
+                    <column datatype='integer' name='1999' ordinal='43' />
+                    <column datatype='integer' name='2000' ordinal='44' />
+                    <column datatype='integer' name='2001' ordinal='45' />
+                    <column datatype='integer' name='2002' ordinal='46' />
+                    <column datatype='integer' name='2003' ordinal='47' />
+                    <column datatype='integer' name='2004' ordinal='48' />
+                    <column datatype='integer' name='2005' ordinal='49' />
+                    <column datatype='integer' name='2006' ordinal='50' />
+                    <column datatype='integer' name='2007' ordinal='51' />
+                    <column datatype='integer' name='2008' ordinal='52' />
+                    <column datatype='integer' name='2009' ordinal='53' />
+                    <column datatype='integer' name='2010' ordinal='54' />
+                    <column datatype='integer' name='2011' ordinal='55' />
+                    <column datatype='integer' name='2012' ordinal='56' />
+                    <column datatype='integer' name='2013' ordinal='57' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Data (P11-Fertility-Rate)' inline='true' name='federated.1nikzsd1s0tw3y1c411c31wju59s' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Fertility-Rate' name='excel-direct.0ngdzgn1vekfqp13jevqj1afayq6'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/projects/tableau/MasterCourse/Section5/P11-Fertility-Rate.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0ngdzgn1vekfqp13jevqj1afayq6' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='string' name='Indicator Code' ordinal='3' />
+              <column datatype='real' name='1960' ordinal='4' />
+              <column datatype='real' name='1961' ordinal='5' />
+              <column datatype='real' name='1962' ordinal='6' />
+              <column datatype='real' name='1963' ordinal='7' />
+              <column datatype='real' name='1964' ordinal='8' />
+              <column datatype='real' name='1965' ordinal='9' />
+              <column datatype='real' name='1966' ordinal='10' />
+              <column datatype='real' name='1967' ordinal='11' />
+              <column datatype='real' name='1968' ordinal='12' />
+              <column datatype='real' name='1969' ordinal='13' />
+              <column datatype='real' name='1970' ordinal='14' />
+              <column datatype='real' name='1971' ordinal='15' />
+              <column datatype='real' name='1972' ordinal='16' />
+              <column datatype='real' name='1973' ordinal='17' />
+              <column datatype='real' name='1974' ordinal='18' />
+              <column datatype='real' name='1975' ordinal='19' />
+              <column datatype='real' name='1976' ordinal='20' />
+              <column datatype='real' name='1977' ordinal='21' />
+              <column datatype='real' name='1978' ordinal='22' />
+              <column datatype='real' name='1979' ordinal='23' />
+              <column datatype='real' name='1980' ordinal='24' />
+              <column datatype='real' name='1981' ordinal='25' />
+              <column datatype='real' name='1982' ordinal='26' />
+              <column datatype='real' name='1983' ordinal='27' />
+              <column datatype='real' name='1984' ordinal='28' />
+              <column datatype='real' name='1985' ordinal='29' />
+              <column datatype='real' name='1986' ordinal='30' />
+              <column datatype='real' name='1987' ordinal='31' />
+              <column datatype='real' name='1988' ordinal='32' />
+              <column datatype='real' name='1989' ordinal='33' />
+              <column datatype='real' name='1990' ordinal='34' />
+              <column datatype='real' name='1991' ordinal='35' />
+              <column datatype='real' name='1992' ordinal='36' />
+              <column datatype='real' name='1993' ordinal='37' />
+              <column datatype='real' name='1994' ordinal='38' />
+              <column datatype='real' name='1995' ordinal='39' />
+              <column datatype='real' name='1996' ordinal='40' />
+              <column datatype='real' name='1997' ordinal='41' />
+              <column datatype='real' name='1998' ordinal='42' />
+              <column datatype='real' name='1999' ordinal='43' />
+              <column datatype='real' name='2000' ordinal='44' />
+              <column datatype='real' name='2001' ordinal='45' />
+              <column datatype='real' name='2002' ordinal='46' />
+              <column datatype='real' name='2003' ordinal='47' />
+              <column datatype='real' name='2004' ordinal='48' />
+              <column datatype='real' name='2005' ordinal='49' />
+              <column datatype='real' name='2006' ordinal='50' />
+              <column datatype='real' name='2007' ordinal='51' />
+              <column datatype='real' name='2008' ordinal='52' />
+              <column datatype='real' name='2009' ordinal='53' />
+              <column datatype='real' name='2010' ordinal='54' />
+              <column datatype='real' name='2011' ordinal='55' />
+              <column datatype='real' name='2012' ordinal='56' />
+              <column datatype='real' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0ngdzgn1vekfqp13jevqj1afayq6' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='string' name='Indicator Code' ordinal='3' />
+              <column datatype='real' name='1960' ordinal='4' />
+              <column datatype='real' name='1961' ordinal='5' />
+              <column datatype='real' name='1962' ordinal='6' />
+              <column datatype='real' name='1963' ordinal='7' />
+              <column datatype='real' name='1964' ordinal='8' />
+              <column datatype='real' name='1965' ordinal='9' />
+              <column datatype='real' name='1966' ordinal='10' />
+              <column datatype='real' name='1967' ordinal='11' />
+              <column datatype='real' name='1968' ordinal='12' />
+              <column datatype='real' name='1969' ordinal='13' />
+              <column datatype='real' name='1970' ordinal='14' />
+              <column datatype='real' name='1971' ordinal='15' />
+              <column datatype='real' name='1972' ordinal='16' />
+              <column datatype='real' name='1973' ordinal='17' />
+              <column datatype='real' name='1974' ordinal='18' />
+              <column datatype='real' name='1975' ordinal='19' />
+              <column datatype='real' name='1976' ordinal='20' />
+              <column datatype='real' name='1977' ordinal='21' />
+              <column datatype='real' name='1978' ordinal='22' />
+              <column datatype='real' name='1979' ordinal='23' />
+              <column datatype='real' name='1980' ordinal='24' />
+              <column datatype='real' name='1981' ordinal='25' />
+              <column datatype='real' name='1982' ordinal='26' />
+              <column datatype='real' name='1983' ordinal='27' />
+              <column datatype='real' name='1984' ordinal='28' />
+              <column datatype='real' name='1985' ordinal='29' />
+              <column datatype='real' name='1986' ordinal='30' />
+              <column datatype='real' name='1987' ordinal='31' />
+              <column datatype='real' name='1988' ordinal='32' />
+              <column datatype='real' name='1989' ordinal='33' />
+              <column datatype='real' name='1990' ordinal='34' />
+              <column datatype='real' name='1991' ordinal='35' />
+              <column datatype='real' name='1992' ordinal='36' />
+              <column datatype='real' name='1993' ordinal='37' />
+              <column datatype='real' name='1994' ordinal='38' />
+              <column datatype='real' name='1995' ordinal='39' />
+              <column datatype='real' name='1996' ordinal='40' />
+              <column datatype='real' name='1997' ordinal='41' />
+              <column datatype='real' name='1998' ordinal='42' />
+              <column datatype='real' name='1999' ordinal='43' />
+              <column datatype='real' name='2000' ordinal='44' />
+              <column datatype='real' name='2001' ordinal='45' />
+              <column datatype='real' name='2002' ordinal='46' />
+              <column datatype='real' name='2003' ordinal='47' />
+              <column datatype='real' name='2004' ordinal='48' />
+              <column datatype='real' name='2005' ordinal='49' />
+              <column datatype='real' name='2006' ordinal='50' />
+              <column datatype='real' name='2007' ordinal='51' />
+              <column datatype='real' name='2008' ordinal='52' />
+              <column datatype='real' name='2009' ordinal='53' />
+              <column datatype='real' name='2010' ordinal='54' />
+              <column datatype='real' name='2011' ordinal='55' />
+              <column datatype='real' name='2012' ordinal='56' />
+              <column datatype='real' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BF216:no:A1:BF216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Indicator Code]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Fertility Rate' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_C702A17B382141838C8CC526E64B69AB]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jedwi/AppData/Local/Temp/TableauTemp/#TableauTemp_00zsxnj095hcgq1blonpb0rlqdum.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/05/2024 09:16:23 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Code</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Indicator Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Indicator Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Indicator Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Names</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pivot Field Names]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Names</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Pivot</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Values</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Pivot Field Values]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Values</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Pivot</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2943</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_C702A17B382141838C8CC526E64B69AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data' id='Data_C702A17B382141838C8CC526E64B69AB'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='real' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[1960]' />
+                  <value name='[1961]' />
+                  <value name='[1962]' />
+                  <value name='[1963]' />
+                  <value name='[1964]' />
+                  <value name='[1965]' />
+                  <value name='[1966]' />
+                  <value name='[1967]' />
+                  <value name='[1968]' />
+                  <value name='[1969]' />
+                  <value name='[1970]' />
+                  <value name='[1971]' />
+                  <value name='[1972]' />
+                  <value name='[1973]' />
+                  <value name='[1974]' />
+                  <value name='[1975]' />
+                  <value name='[1976]' />
+                  <value name='[1977]' />
+                  <value name='[1978]' />
+                  <value name='[1979]' />
+                  <value name='[1980]' />
+                  <value name='[1981]' />
+                  <value name='[1982]' />
+                  <value name='[1983]' />
+                  <value name='[1984]' />
+                  <value name='[1985]' />
+                  <value name='[1986]' />
+                  <value name='[1987]' />
+                  <value name='[1988]' />
+                  <value name='[1989]' />
+                  <value name='[1990]' />
+                  <value name='[1991]' />
+                  <value name='[1992]' />
+                  <value name='[1993]' />
+                  <value name='[1994]' />
+                  <value name='[1995]' />
+                  <value name='[1996]' />
+                  <value name='[1997]' />
+                  <value name='[1998]' />
+                  <value name='[1999]' />
+                  <value name='[2000]' />
+                  <value name='[2001]' />
+                  <value name='[2002]' />
+                  <value name='[2003]' />
+                  <value name='[2004]' />
+                  <value name='[2005]' />
+                  <value name='[2006]' />
+                  <value name='[2007]' />
+                  <value name='[2008]' />
+                  <value name='[2009]' />
+                  <value name='[2010]' />
+                  <value name='[2011]' />
+                  <value name='[2012]' />
+                  <value name='[2013]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Data].[1960]' />
+                    <field name='[Data].[1961]' />
+                    <field name='[Data].[1962]' />
+                    <field name='[Data].[1963]' />
+                    <field name='[Data].[1964]' />
+                    <field name='[Data].[1965]' />
+                    <field name='[Data].[1966]' />
+                    <field name='[Data].[1967]' />
+                    <field name='[Data].[1968]' />
+                    <field name='[Data].[1969]' />
+                    <field name='[Data].[1970]' />
+                    <field name='[Data].[1971]' />
+                    <field name='[Data].[1972]' />
+                    <field name='[Data].[1973]' />
+                    <field name='[Data].[1974]' />
+                    <field name='[Data].[1975]' />
+                    <field name='[Data].[1976]' />
+                    <field name='[Data].[1977]' />
+                    <field name='[Data].[1978]' />
+                    <field name='[Data].[1979]' />
+                    <field name='[Data].[1980]' />
+                    <field name='[Data].[1981]' />
+                    <field name='[Data].[1982]' />
+                    <field name='[Data].[1983]' />
+                    <field name='[Data].[1984]' />
+                    <field name='[Data].[1985]' />
+                    <field name='[Data].[1986]' />
+                    <field name='[Data].[1987]' />
+                    <field name='[Data].[1988]' />
+                    <field name='[Data].[1989]' />
+                    <field name='[Data].[1990]' />
+                    <field name='[Data].[1991]' />
+                    <field name='[Data].[1992]' />
+                    <field name='[Data].[1993]' />
+                    <field name='[Data].[1994]' />
+                    <field name='[Data].[1995]' />
+                    <field name='[Data].[1996]' />
+                    <field name='[Data].[1997]' />
+                    <field name='[Data].[1998]' />
+                    <field name='[Data].[1999]' />
+                    <field name='[Data].[2000]' />
+                    <field name='[Data].[2001]' />
+                    <field name='[Data].[2002]' />
+                    <field name='[Data].[2003]' />
+                    <field name='[Data].[2004]' />
+                    <field name='[Data].[2005]' />
+                    <field name='[Data].[2006]' />
+                    <field name='[Data].[2007]' />
+                    <field name='[Data].[2008]' />
+                    <field name='[Data].[2009]' />
+                    <field name='[Data].[2010]' />
+                    <field name='[Data].[2011]' />
+                    <field name='[Data].[2012]' />
+                    <field name='[Data].[2013]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.0ngdzgn1vekfqp13jevqj1afayq6' name='Data' table='[Data$]' type='table'>
+                  <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+                    <column datatype='string' name='Country Name' ordinal='0' />
+                    <column datatype='string' name='Country Code' ordinal='1' />
+                    <column datatype='string' name='Indicator Name' ordinal='2' />
+                    <column datatype='string' name='Indicator Code' ordinal='3' />
+                    <column datatype='real' name='1960' ordinal='4' />
+                    <column datatype='real' name='1961' ordinal='5' />
+                    <column datatype='real' name='1962' ordinal='6' />
+                    <column datatype='real' name='1963' ordinal='7' />
+                    <column datatype='real' name='1964' ordinal='8' />
+                    <column datatype='real' name='1965' ordinal='9' />
+                    <column datatype='real' name='1966' ordinal='10' />
+                    <column datatype='real' name='1967' ordinal='11' />
+                    <column datatype='real' name='1968' ordinal='12' />
+                    <column datatype='real' name='1969' ordinal='13' />
+                    <column datatype='real' name='1970' ordinal='14' />
+                    <column datatype='real' name='1971' ordinal='15' />
+                    <column datatype='real' name='1972' ordinal='16' />
+                    <column datatype='real' name='1973' ordinal='17' />
+                    <column datatype='real' name='1974' ordinal='18' />
+                    <column datatype='real' name='1975' ordinal='19' />
+                    <column datatype='real' name='1976' ordinal='20' />
+                    <column datatype='real' name='1977' ordinal='21' />
+                    <column datatype='real' name='1978' ordinal='22' />
+                    <column datatype='real' name='1979' ordinal='23' />
+                    <column datatype='real' name='1980' ordinal='24' />
+                    <column datatype='real' name='1981' ordinal='25' />
+                    <column datatype='real' name='1982' ordinal='26' />
+                    <column datatype='real' name='1983' ordinal='27' />
+                    <column datatype='real' name='1984' ordinal='28' />
+                    <column datatype='real' name='1985' ordinal='29' />
+                    <column datatype='real' name='1986' ordinal='30' />
+                    <column datatype='real' name='1987' ordinal='31' />
+                    <column datatype='real' name='1988' ordinal='32' />
+                    <column datatype='real' name='1989' ordinal='33' />
+                    <column datatype='real' name='1990' ordinal='34' />
+                    <column datatype='real' name='1991' ordinal='35' />
+                    <column datatype='real' name='1992' ordinal='36' />
+                    <column datatype='real' name='1993' ordinal='37' />
+                    <column datatype='real' name='1994' ordinal='38' />
+                    <column datatype='real' name='1995' ordinal='39' />
+                    <column datatype='real' name='1996' ordinal='40' />
+                    <column datatype='real' name='1997' ordinal='41' />
+                    <column datatype='real' name='1998' ordinal='42' />
+                    <column datatype='real' name='1999' ordinal='43' />
+                    <column datatype='real' name='2000' ordinal='44' />
+                    <column datatype='real' name='2001' ordinal='45' />
+                    <column datatype='real' name='2002' ordinal='46' />
+                    <column datatype='real' name='2003' ordinal='47' />
+                    <column datatype='real' name='2004' ordinal='48' />
+                    <column datatype='real' name='2005' ordinal='49' />
+                    <column datatype='real' name='2006' ordinal='50' />
+                    <column datatype='real' name='2007' ordinal='51' />
+                    <column datatype='real' name='2008' ordinal='52' />
+                    <column datatype='real' name='2009' ordinal='53' />
+                    <column datatype='real' name='2010' ordinal='54' />
+                    <column datatype='real' name='2011' ordinal='55' />
+                    <column datatype='real' name='2012' ordinal='56' />
+                    <column datatype='real' name='2013' ordinal='57' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Data (P11-Life-Expectancy-At-Birth)' inline='true' name='federated.01w9av01dmtlrc175mhmo0yqg29l' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Life-Expectancy-At-Birth' name='excel-direct.0xonoyx0jz1imr1ck8xs009suf28'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/projects/tableau/MasterCourse/Section5/P11-Life-Expectancy-At-Birth.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0xonoyx0jz1imr1ck8xs009suf28' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='string' name='Indicator Code' ordinal='3' />
+              <column datatype='real' name='1960' ordinal='4' />
+              <column datatype='real' name='1961' ordinal='5' />
+              <column datatype='real' name='1962' ordinal='6' />
+              <column datatype='real' name='1963' ordinal='7' />
+              <column datatype='real' name='1964' ordinal='8' />
+              <column datatype='real' name='1965' ordinal='9' />
+              <column datatype='real' name='1966' ordinal='10' />
+              <column datatype='real' name='1967' ordinal='11' />
+              <column datatype='real' name='1968' ordinal='12' />
+              <column datatype='real' name='1969' ordinal='13' />
+              <column datatype='real' name='1970' ordinal='14' />
+              <column datatype='real' name='1971' ordinal='15' />
+              <column datatype='real' name='1972' ordinal='16' />
+              <column datatype='real' name='1973' ordinal='17' />
+              <column datatype='real' name='1974' ordinal='18' />
+              <column datatype='real' name='1975' ordinal='19' />
+              <column datatype='real' name='1976' ordinal='20' />
+              <column datatype='real' name='1977' ordinal='21' />
+              <column datatype='real' name='1978' ordinal='22' />
+              <column datatype='real' name='1979' ordinal='23' />
+              <column datatype='real' name='1980' ordinal='24' />
+              <column datatype='real' name='1981' ordinal='25' />
+              <column datatype='real' name='1982' ordinal='26' />
+              <column datatype='real' name='1983' ordinal='27' />
+              <column datatype='real' name='1984' ordinal='28' />
+              <column datatype='real' name='1985' ordinal='29' />
+              <column datatype='real' name='1986' ordinal='30' />
+              <column datatype='real' name='1987' ordinal='31' />
+              <column datatype='real' name='1988' ordinal='32' />
+              <column datatype='real' name='1989' ordinal='33' />
+              <column datatype='real' name='1990' ordinal='34' />
+              <column datatype='real' name='1991' ordinal='35' />
+              <column datatype='real' name='1992' ordinal='36' />
+              <column datatype='real' name='1993' ordinal='37' />
+              <column datatype='real' name='1994' ordinal='38' />
+              <column datatype='real' name='1995' ordinal='39' />
+              <column datatype='real' name='1996' ordinal='40' />
+              <column datatype='real' name='1997' ordinal='41' />
+              <column datatype='real' name='1998' ordinal='42' />
+              <column datatype='real' name='1999' ordinal='43' />
+              <column datatype='real' name='2000' ordinal='44' />
+              <column datatype='real' name='2001' ordinal='45' />
+              <column datatype='real' name='2002' ordinal='46' />
+              <column datatype='real' name='2003' ordinal='47' />
+              <column datatype='real' name='2004' ordinal='48' />
+              <column datatype='real' name='2005' ordinal='49' />
+              <column datatype='real' name='2006' ordinal='50' />
+              <column datatype='real' name='2007' ordinal='51' />
+              <column datatype='real' name='2008' ordinal='52' />
+              <column datatype='real' name='2009' ordinal='53' />
+              <column datatype='real' name='2010' ordinal='54' />
+              <column datatype='real' name='2011' ordinal='55' />
+              <column datatype='real' name='2012' ordinal='56' />
+              <column datatype='real' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0xonoyx0jz1imr1ck8xs009suf28' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='string' name='Indicator Code' ordinal='3' />
+              <column datatype='real' name='1960' ordinal='4' />
+              <column datatype='real' name='1961' ordinal='5' />
+              <column datatype='real' name='1962' ordinal='6' />
+              <column datatype='real' name='1963' ordinal='7' />
+              <column datatype='real' name='1964' ordinal='8' />
+              <column datatype='real' name='1965' ordinal='9' />
+              <column datatype='real' name='1966' ordinal='10' />
+              <column datatype='real' name='1967' ordinal='11' />
+              <column datatype='real' name='1968' ordinal='12' />
+              <column datatype='real' name='1969' ordinal='13' />
+              <column datatype='real' name='1970' ordinal='14' />
+              <column datatype='real' name='1971' ordinal='15' />
+              <column datatype='real' name='1972' ordinal='16' />
+              <column datatype='real' name='1973' ordinal='17' />
+              <column datatype='real' name='1974' ordinal='18' />
+              <column datatype='real' name='1975' ordinal='19' />
+              <column datatype='real' name='1976' ordinal='20' />
+              <column datatype='real' name='1977' ordinal='21' />
+              <column datatype='real' name='1978' ordinal='22' />
+              <column datatype='real' name='1979' ordinal='23' />
+              <column datatype='real' name='1980' ordinal='24' />
+              <column datatype='real' name='1981' ordinal='25' />
+              <column datatype='real' name='1982' ordinal='26' />
+              <column datatype='real' name='1983' ordinal='27' />
+              <column datatype='real' name='1984' ordinal='28' />
+              <column datatype='real' name='1985' ordinal='29' />
+              <column datatype='real' name='1986' ordinal='30' />
+              <column datatype='real' name='1987' ordinal='31' />
+              <column datatype='real' name='1988' ordinal='32' />
+              <column datatype='real' name='1989' ordinal='33' />
+              <column datatype='real' name='1990' ordinal='34' />
+              <column datatype='real' name='1991' ordinal='35' />
+              <column datatype='real' name='1992' ordinal='36' />
+              <column datatype='real' name='1993' ordinal='37' />
+              <column datatype='real' name='1994' ordinal='38' />
+              <column datatype='real' name='1995' ordinal='39' />
+              <column datatype='real' name='1996' ordinal='40' />
+              <column datatype='real' name='1997' ordinal='41' />
+              <column datatype='real' name='1998' ordinal='42' />
+              <column datatype='real' name='1999' ordinal='43' />
+              <column datatype='real' name='2000' ordinal='44' />
+              <column datatype='real' name='2001' ordinal='45' />
+              <column datatype='real' name='2002' ordinal='46' />
+              <column datatype='real' name='2003' ordinal='47' />
+              <column datatype='real' name='2004' ordinal='48' />
+              <column datatype='real' name='2005' ordinal='49' />
+              <column datatype='real' name='2006' ordinal='50' />
+              <column datatype='real' name='2007' ordinal='51' />
+              <column datatype='real' name='2008' ordinal='52' />
+              <column datatype='real' name='2009' ordinal='53' />
+              <column datatype='real' name='2010' ordinal='54' />
+              <column datatype='real' name='2011' ordinal='55' />
+              <column datatype='real' name='2012' ordinal='56' />
+              <column datatype='real' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BF216:no:A1:BF216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Indicator Code]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Indicator Name]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Life Expectancy' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_FAA3790085884DE58B0286FCA9F82728]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jedwi/AppData/Local/Temp/TableauTemp/#TableauTemp_005z6dq1vmajqb17xgqee1a3222n.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/05/2024 09:16:40 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Code</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Names</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pivot Field Names]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Names</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Pivot</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Values</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Pivot Field Values]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Values</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Pivot</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7056</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_FAA3790085884DE58B0286FCA9F82728]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data' id='Data_FAA3790085884DE58B0286FCA9F82728'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='real' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[1960]' />
+                  <value name='[1961]' />
+                  <value name='[1962]' />
+                  <value name='[1963]' />
+                  <value name='[1964]' />
+                  <value name='[1965]' />
+                  <value name='[1966]' />
+                  <value name='[1967]' />
+                  <value name='[1968]' />
+                  <value name='[1969]' />
+                  <value name='[1970]' />
+                  <value name='[1971]' />
+                  <value name='[1972]' />
+                  <value name='[1973]' />
+                  <value name='[1974]' />
+                  <value name='[1975]' />
+                  <value name='[1976]' />
+                  <value name='[1977]' />
+                  <value name='[1978]' />
+                  <value name='[1979]' />
+                  <value name='[1980]' />
+                  <value name='[1981]' />
+                  <value name='[1982]' />
+                  <value name='[1983]' />
+                  <value name='[1984]' />
+                  <value name='[1985]' />
+                  <value name='[1986]' />
+                  <value name='[1987]' />
+                  <value name='[1988]' />
+                  <value name='[1989]' />
+                  <value name='[1990]' />
+                  <value name='[1991]' />
+                  <value name='[1992]' />
+                  <value name='[1993]' />
+                  <value name='[1994]' />
+                  <value name='[1995]' />
+                  <value name='[1996]' />
+                  <value name='[1997]' />
+                  <value name='[1998]' />
+                  <value name='[1999]' />
+                  <value name='[2000]' />
+                  <value name='[2001]' />
+                  <value name='[2002]' />
+                  <value name='[2003]' />
+                  <value name='[2004]' />
+                  <value name='[2005]' />
+                  <value name='[2006]' />
+                  <value name='[2007]' />
+                  <value name='[2008]' />
+                  <value name='[2009]' />
+                  <value name='[2010]' />
+                  <value name='[2011]' />
+                  <value name='[2012]' />
+                  <value name='[2013]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Data].[1960]' />
+                    <field name='[Data].[1961]' />
+                    <field name='[Data].[1962]' />
+                    <field name='[Data].[1963]' />
+                    <field name='[Data].[1964]' />
+                    <field name='[Data].[1965]' />
+                    <field name='[Data].[1966]' />
+                    <field name='[Data].[1967]' />
+                    <field name='[Data].[1968]' />
+                    <field name='[Data].[1969]' />
+                    <field name='[Data].[1970]' />
+                    <field name='[Data].[1971]' />
+                    <field name='[Data].[1972]' />
+                    <field name='[Data].[1973]' />
+                    <field name='[Data].[1974]' />
+                    <field name='[Data].[1975]' />
+                    <field name='[Data].[1976]' />
+                    <field name='[Data].[1977]' />
+                    <field name='[Data].[1978]' />
+                    <field name='[Data].[1979]' />
+                    <field name='[Data].[1980]' />
+                    <field name='[Data].[1981]' />
+                    <field name='[Data].[1982]' />
+                    <field name='[Data].[1983]' />
+                    <field name='[Data].[1984]' />
+                    <field name='[Data].[1985]' />
+                    <field name='[Data].[1986]' />
+                    <field name='[Data].[1987]' />
+                    <field name='[Data].[1988]' />
+                    <field name='[Data].[1989]' />
+                    <field name='[Data].[1990]' />
+                    <field name='[Data].[1991]' />
+                    <field name='[Data].[1992]' />
+                    <field name='[Data].[1993]' />
+                    <field name='[Data].[1994]' />
+                    <field name='[Data].[1995]' />
+                    <field name='[Data].[1996]' />
+                    <field name='[Data].[1997]' />
+                    <field name='[Data].[1998]' />
+                    <field name='[Data].[1999]' />
+                    <field name='[Data].[2000]' />
+                    <field name='[Data].[2001]' />
+                    <field name='[Data].[2002]' />
+                    <field name='[Data].[2003]' />
+                    <field name='[Data].[2004]' />
+                    <field name='[Data].[2005]' />
+                    <field name='[Data].[2006]' />
+                    <field name='[Data].[2007]' />
+                    <field name='[Data].[2008]' />
+                    <field name='[Data].[2009]' />
+                    <field name='[Data].[2010]' />
+                    <field name='[Data].[2011]' />
+                    <field name='[Data].[2012]' />
+                    <field name='[Data].[2013]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.0xonoyx0jz1imr1ck8xs009suf28' name='Data' table='[Data$]' type='table'>
+                  <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+                    <column datatype='string' name='Country Name' ordinal='0' />
+                    <column datatype='string' name='Country Code' ordinal='1' />
+                    <column datatype='string' name='Indicator Name' ordinal='2' />
+                    <column datatype='string' name='Indicator Code' ordinal='3' />
+                    <column datatype='real' name='1960' ordinal='4' />
+                    <column datatype='real' name='1961' ordinal='5' />
+                    <column datatype='real' name='1962' ordinal='6' />
+                    <column datatype='real' name='1963' ordinal='7' />
+                    <column datatype='real' name='1964' ordinal='8' />
+                    <column datatype='real' name='1965' ordinal='9' />
+                    <column datatype='real' name='1966' ordinal='10' />
+                    <column datatype='real' name='1967' ordinal='11' />
+                    <column datatype='real' name='1968' ordinal='12' />
+                    <column datatype='real' name='1969' ordinal='13' />
+                    <column datatype='real' name='1970' ordinal='14' />
+                    <column datatype='real' name='1971' ordinal='15' />
+                    <column datatype='real' name='1972' ordinal='16' />
+                    <column datatype='real' name='1973' ordinal='17' />
+                    <column datatype='real' name='1974' ordinal='18' />
+                    <column datatype='real' name='1975' ordinal='19' />
+                    <column datatype='real' name='1976' ordinal='20' />
+                    <column datatype='real' name='1977' ordinal='21' />
+                    <column datatype='real' name='1978' ordinal='22' />
+                    <column datatype='real' name='1979' ordinal='23' />
+                    <column datatype='real' name='1980' ordinal='24' />
+                    <column datatype='real' name='1981' ordinal='25' />
+                    <column datatype='real' name='1982' ordinal='26' />
+                    <column datatype='real' name='1983' ordinal='27' />
+                    <column datatype='real' name='1984' ordinal='28' />
+                    <column datatype='real' name='1985' ordinal='29' />
+                    <column datatype='real' name='1986' ordinal='30' />
+                    <column datatype='real' name='1987' ordinal='31' />
+                    <column datatype='real' name='1988' ordinal='32' />
+                    <column datatype='real' name='1989' ordinal='33' />
+                    <column datatype='real' name='1990' ordinal='34' />
+                    <column datatype='real' name='1991' ordinal='35' />
+                    <column datatype='real' name='1992' ordinal='36' />
+                    <column datatype='real' name='1993' ordinal='37' />
+                    <column datatype='real' name='1994' ordinal='38' />
+                    <column datatype='real' name='1995' ordinal='39' />
+                    <column datatype='real' name='1996' ordinal='40' />
+                    <column datatype='real' name='1997' ordinal='41' />
+                    <column datatype='real' name='1998' ordinal='42' />
+                    <column datatype='real' name='1999' ordinal='43' />
+                    <column datatype='real' name='2000' ordinal='44' />
+                    <column datatype='real' name='2001' ordinal='45' />
+                    <column datatype='real' name='2002' ordinal='46' />
+                    <column datatype='real' name='2003' ordinal='47' />
+                    <column datatype='real' name='2004' ordinal='48' />
+                    <column datatype='real' name='2005' ordinal='49' />
+                    <column datatype='real' name='2006' ordinal='50' />
+                    <column datatype='real' name='2007' ordinal='51' />
+                    <column datatype='real' name='2008' ordinal='52' />
+                    <column datatype='real' name='2009' ordinal='53' />
+                    <column datatype='real' name='2010' ordinal='54' />
+                    <column datatype='real' name='2011' ordinal='55' />
+                    <column datatype='real' name='2012' ordinal='56' />
+                    <column datatype='real' name='2013' ordinal='57' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (P11-Country-Metadata)' inline='true' name='federated.19txyp21et8fe513wosn41i9ef09' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Country-Metadata' name='excel-direct.1mj80xp0rznvej12fsaii1pvfynl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/projects/tableau/MasterCourse/Section5/P11-Country-Metadata.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1mj80xp0rznvej12fsaii1pvfynl' name='Metadata - Countries' table='[&apos;Metadata - Countries$&apos;]' type='table'>
+          <columns gridOrigin='A1:E216:no:A1:E216:0' header='yes' outcome='2'>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='string' name='Country Code' ordinal='1' />
+            <column datatype='string' name='Region' ordinal='2' />
+            <column datatype='string' name='IncomeGroup' ordinal='3' />
+            <column datatype='string' name='SpecialNotes' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1mj80xp0rznvej12fsaii1pvfynl' name='Metadata - Countries' table='[&apos;Metadata - Countries$&apos;]' type='table'>
+          <columns gridOrigin='A1:E216:no:A1:E216:0' header='yes' outcome='2'>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='string' name='Country Code' ordinal='1' />
+            <column datatype='string' name='Region' ordinal='2' />
+            <column datatype='string' name='IncomeGroup' ordinal='3' />
+            <column datatype='string' name='SpecialNotes' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E216:no:A1:E216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IncomeGroup</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IncomeGroup]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>IncomeGroup</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SpecialNotes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SpecialNotes]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>SpecialNotes</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+      <column caption='Region1' datatype='string' name='[Region]' role='dimension' type='nominal' />
+      <column caption='Special Notes' datatype='string' name='[SpecialNotes]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Metadata - Countries' datatype='table' name='[__tableau_internal_object_id__].[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]' role='measure' type='quantitative' />
+      <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jedwi/AppData/Local/Temp/TableauTemp/#TableauTemp_1q9yd6a04ceavc1efdkol1y2k1tc.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/05/2024 09:16:59 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Metadata - Countries</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>215</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country Code</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Metadata - Countries</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>215</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Metadata - Countries</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IncomeGroup</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IncomeGroup]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IncomeGroup</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Metadata - Countries</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SpecialNotes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SpecialNotes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SpecialNotes</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Metadata - Countries</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>123</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Region:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Europe &amp; Central Asia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;North America&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South Asia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sub-Saharan Africa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;East Asia &amp; Pacific&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Latin America &amp; Caribbean&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Middle East &amp; North Africa&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Metadata - Countries' id='Metadata - Countries_D02411B5B81E49B0AA6D300CD4D78797'>
+            <properties context=''>
+              <relation connection='excel-direct.1mj80xp0rznvej12fsaii1pvfynl' name='Metadata - Countries' table='[&apos;Metadata - Countries$&apos;]' type='table'>
+                <columns gridOrigin='A1:E216:no:A1:E216:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Country Name' ordinal='0' />
+                  <column datatype='string' name='Country Code' ordinal='1' />
+                  <column datatype='string' name='Region' ordinal='2' />
+                  <column datatype='string' name='IncomeGroup' ordinal='3' />
+                  <column datatype='string' name='SpecialNotes' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <datasource-relationships>
+    <datasource-dependencies datasource='federated.01w9av01dmtlrc175mhmo0yqg29l'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.19txyp21et8fe513wosn41i9ef09'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.1nikzsd1s0tw3y1c411c31wju59s'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.1x2r8tu0tokifz146vit11tbfv9r'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-relationship source='federated.01w9av01dmtlrc175mhmo0yqg29l' target='federated.19txyp21et8fe513wosn41i9ef09'>
+      <column-mapping>
+        <map key='[federated.01w9av01dmtlrc175mhmo0yqg29l].[none:Country Code:nk]' value='[federated.19txyp21et8fe513wosn41i9ef09].[none:Country Code:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+    <datasource-relationship source='federated.1nikzsd1s0tw3y1c411c31wju59s' target='federated.01w9av01dmtlrc175mhmo0yqg29l'>
+      <column-mapping>
+        <map key='[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Country Code:nk]' value='[federated.01w9av01dmtlrc175mhmo0yqg29l].[none:Country Code:nk]' />
+        <map key='[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Pivot Field Names:nk]' value='[federated.01w9av01dmtlrc175mhmo0yqg29l].[none:Pivot Field Names:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+    <datasource-relationship source='federated.1x2r8tu0tokifz146vit11tbfv9r' target='federated.01w9av01dmtlrc175mhmo0yqg29l'>
+      <column-mapping>
+        <map key='[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Country Code:nk]' value='[federated.01w9av01dmtlrc175mhmo0yqg29l].[none:Country Code:nk]' />
+        <map key='[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]' value='[federated.01w9av01dmtlrc175mhmo0yqg29l].[none:Pivot Field Names:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+    <datasource-relationship source='federated.1nikzsd1s0tw3y1c411c31wju59s' target='federated.19txyp21et8fe513wosn41i9ef09'>
+      <column-mapping>
+        <map key='[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Country Code:nk]' value='[federated.19txyp21et8fe513wosn41i9ef09].[none:Country Code:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+    <datasource-relationship source='federated.1x2r8tu0tokifz146vit11tbfv9r' target='federated.19txyp21et8fe513wosn41i9ef09'>
+      <column-mapping>
+        <map key='[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Country Code:nk]' value='[federated.19txyp21et8fe513wosn41i9ef09].[none:Country Code:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+    <datasource-relationship source='federated.1x2r8tu0tokifz146vit11tbfv9r' target='federated.1nikzsd1s0tw3y1c411c31wju59s'>
+      <column-mapping>
+        <map key='[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Country Code:nk]' value='[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Country Code:nk]' />
+        <map key='[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]' value='[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Pivot Field Names:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+  </datasource-relationships>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (P11-Country-Population)' name='federated.1x2r8tu0tokifz146vit11tbfv9r' />
+            <datasource caption='Data (P11-Life-Expectancy-At-Birth)' name='federated.01w9av01dmtlrc175mhmo0yqg29l' />
+            <datasource caption='Sheet1 (P11-Country-Metadata)' name='federated.19txyp21et8fe513wosn41i9ef09' />
+            <datasource caption='Data (P11-Fertility-Rate)' name='federated.1nikzsd1s0tw3y1c411c31wju59s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01w9av01dmtlrc175mhmo0yqg29l'>
+            <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Life Expectancy' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.19txyp21et8fe513wosn41i9ef09'>
+            <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Region1' datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1nikzsd1s0tw3y1c411c31wju59s'>
+            <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Fertility Rate' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1x2r8tu0tokifz146vit11tbfv9r'>
+            <column caption='Country Name1' datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Population Total' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Pivot Field Values:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Pivot Field Values:qk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1nikzsd1s0tw3y1c411c31wju59s].[sum:Pivot Field Values:qk]' field-type='quantitative' max='8.0' min='1.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.01w9av01dmtlrc175mhmo0yqg29l].[sum:Pivot Field Values:qk]' field-type='quantitative' max='85.0' min='30.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='cell-w' value='40' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.1x2r8tu0tokifz146vit11tbfv9r].[sum:Pivot Field Values:qk]' field-type='quantitative' max-size='1' min-size='0.0919933' type='rangesize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-color' value='#d4d4d4' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#000000' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-color' scope='cols' value='#000000' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-color' scope='cols' value='#000000' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_0' value='#fafafa00' />
+            <format attr='line-end-size' id='annotation_1' value='smallest' />
+            <format attr='fill-color' id='annotation_1' value='#e6e6e6' />
+            <format attr='border-width' id='annotation_1' value='2' />
+            <format attr='border-style' id='annotation_1' value='solid' />
+            <format attr='border-color' id='annotation_1' value='#d7d7d796' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.19txyp21et8fe513wosn41i9ef09].[none:Region:nk]' />
+              <size column='[federated.1x2r8tu0tokifz146vit11tbfv9r].[sum:Pivot Field Values:qk]' />
+              <lod column='[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Country Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='3.7297408580780029' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#898989' />
+                <format attr='mark-transparency' value='183' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='860' />
+                <format attr='maxwidth' value='860' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='860' />
+                <format attr='maxwidth' value='860' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='860' />
+                <format attr='maxwidth' value='860' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='860' />
+                <format attr='maxwidth' value='860' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01w9av01dmtlrc175mhmo0yqg29l].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.1nikzsd1s0tw3y1c411c31wju59s].[sum:Pivot Field Values:qk]</cols>
+        <pages>
+          <column>[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]</column>
+        </pages>
+        <join-lod-include-overrides>
+          <column>[federated.01w9av01dmtlrc175mhmo0yqg29l].[Country Code]</column>
+          <column>[federated.01w9av01dmtlrc175mhmo0yqg29l].[Pivot Field Names]</column>
+          <column>[federated.19txyp21et8fe513wosn41i9ef09].[Country Code]</column>
+          <column>[federated.1nikzsd1s0tw3y1c411c31wju59s].[Country Code]</column>
+          <column>[federated.1nikzsd1s0tw3y1c411c31wju59s].[Pivot Field Names]</column>
+        </join-lod-include-overrides>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run fontsize='48'>&lt;Page Name&gt;</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='5.5825581395348838'>
+                  <node-reference>
+                    <axis>[federated.1nikzsd1s0tw3y1c411c31wju59s].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='80.755033557046971'>
+                  <node-reference>
+                    <axis>[federated.01w9av01dmtlrc175mhmo0yqg29l].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;1962&quot;</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='7.8697674418604651'>
+                  <node-reference>
+                    <axis>[federated.1nikzsd1s0tw3y1c411c31wju59s].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='74.541387024608497'>
+                  <node-reference>
+                    <axis>[federated.01w9av01dmtlrc175mhmo0yqg29l].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;1962&quot;</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Life Expecancy and Fertility Rate changes by year. 
+
+Values moving towards the top left indicate longer life expectacy and lower fertility rates.  
+
+Colors indicate world region.</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='1.1546511627906977'>
+                  <node-reference>
+                    <axis>[federated.1nikzsd1s0tw3y1c411c31wju59s].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='41.319910514541391'>
+                  <node-reference>
+                    <axis>[federated.01w9av01dmtlrc175mhmo0yqg29l].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;1974&quot;</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='4.0197674418604654'>
+                  <node-reference>
+                    <axis>[federated.1nikzsd1s0tw3y1c411c31wju59s].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='31.353467561521256'>
+                  <node-reference>
+                    <axis>[federated.01w9av01dmtlrc175mhmo0yqg29l].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;1974&quot;</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{A5CCCA7A-15F0-4EAE-8E24-96790C422C51}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='93'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card looped='1' type='currpage' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='6' param='[federated.19txyp21et8fe513wosn41i9ef09].[none:Region:nk]' type='color' />
+            <card pane-specification-id='6' param='[federated.1x2r8tu0tokifz146vit11tbfv9r].[sum:Pivot Field Values:qk]' type='size' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='39'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;1962&quot;</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.01w9av01dmtlrc175mhmo0yqg29l].[none:Pivot Field Names:nk]</field>
+            <field>[federated.1nikzsd1s0tw3y1c411c31wju59s].[none:Pivot Field Names:nk]</field>
+            <field>[federated.1x2r8tu0tokifz146vit11tbfv9r].[none:Pivot Field Names:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5CD28672-C427-4491-94CD-9A3E687E909F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
